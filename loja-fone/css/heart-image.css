@@ -1,0 +1,58 @@
+.heart{
+  background-color:#E24647;
+  width:33px;
+  height:29px;
+  float:left;
+  position: relative;
+  top:-55px;
+  right:80px;
+  display: inline-block;
+  transition: all .25s;
+}
+
+.heart-image{
+  width:33px;
+  height:29px;
+  float:left;
+  position: relative;
+  cursor:pointer;
+  color: #000;
+  transition: all .25s;
+  display: inline-block;
+}
+
+.heart:hover{
+  cursor:pointer;
+}
+
+@media(max-width:1320px){
+  .heart{
+    top:-75px;
+    right:-350px;
+  }
+}
+
+@media(max-width:500px){
+  .heart{
+    display:block;
+    right:0;
+    
+  }
+}
+
+@media(max-width:340px){
+  .heart{
+    display:block;
+    right:0;
+    margin-top:20px;
+  }
+}
+
+
+
+
+
+  
+
+
+
